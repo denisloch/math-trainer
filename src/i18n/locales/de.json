@@ -1,0 +1,40 @@
+{
+    "navbar": {
+        "home": "Startseite",
+        "global-settings": "Globale Einstellungen",
+        "no-games-fallback": "Keine Spiele gefunden"
+    },
+    "game-selector": {
+        "select-game-type": "Spieltyp auswählen"
+    },
+    "game-type": {
+        "game-addition": "Addition",
+        "game-subtraction": "Subtraktion",
+        "game-multiplication": "Multiplikation",
+        "game-division": "Division",
+        "error-game-not-found": "Error, Spiel nicht gefunden"
+    },
+    "settings": {
+        "global": {
+            "page-title": "Globale Einstellungen"
+        },
+        "game": {
+            "page-title": "Spieleinstellungen für:"
+        },
+        "error": {
+            "no-settings-found": "Keine Einstellungen gefunden"
+        }
+    },
+    "setting-items": {
+        "global": {
+            "language": {
+                "title": "Sprache auswählen",
+                "subtitle": "Wähle eine Sprache aus. Die Standardsprache ist Englisch.",
+                "radioitems": {
+                    "1": "Englisch",
+                    "2": "Deutsch"
+                }
+            }
+        }
+    }
+}
