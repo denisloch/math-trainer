@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="%lang%">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+        
+		<link rel="modulepreload" href="../_app/immutable/entry/start.b53a304d.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.370d19c7.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.0469e31f.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/paths.33afa817.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.ca9e8798.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper.41c905a7.js">
+    </head>
+    <body data-sveltekit-preload-data="hover">
+        <div style="display: contents">
+			<script>
+				{
+					__sveltekit_i0eq2a = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.b53a304d.js"),
+						import("../_app/immutable/entry/app.ca9e8798.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+    </body>
+</html>
